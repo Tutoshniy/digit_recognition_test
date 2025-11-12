@@ -1,0 +1,70 @@
+# Сборка C++
+build/
+bin/
+*.exe
+*.out
+*.app
+
+# Объектные файлы
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.temp
+
+# Резервные копии
+*~
+*.bak
+*.backup
+
+# IDE файлы
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# OpenCV (если используете локальную сборку)
+opencv/
+opencv_build/
+
+# Модели и большие файлы данных
+models/
+*.xml
+*.yml
+*.weights
+
+# Датасеты (если они большие)
+data/mnist/*
+!data/mnist/.gitkeep
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Документация
+docs/_build/
+
+# Пакеты
+*.deb
+*.rpm
+*.tar.gz
+*.zip
+
+# Профилирование
+*.prof
+*.gcda
+*.gcno
+
+# Тестовые данные
+test_output/
